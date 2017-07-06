@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    
+<resources
+    tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+
     <style name="Theme.AppTheme" parent="android:style/Theme.NoTitleBar">
         <!-- This disables the black preview screen -->
         <item name="android:windowDisablePreview">true</item>
-        
+
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
+    <string name="url" translatable="false">click-to-vote.at</string>
+    <string name="url_core" translatable="false">click-to-vote-core.tk/core</string>
+    <string name="package_name" translatable="false">at.imagevote</string>
     <string name="free_name" translatable="false">Click to Vote</string>
     <string name="pro_name" translatable="false">Click to Vote +</string>
-    <string name="is_premium" translatable="false"></string>
-        
-    <string name="facebook_app_id" translatable="false">443205739202900</string> 
-    <string name="facebookOptionLabel">facebook</string> 
+
+    <bool name="ads" translatable="false">false</bool>
+
+    <!--LANGUAGE:-->
     <string name="moreShareOptionsLabel">show all</string>
-    <string name="considerUsageAccess">improve redirections on \nPrivacy→Security→Usage access</string>
+    <string name="considerUsageAccess">improve redirection on \nPrivacy→Security→Usage access</string>
     <string name="SelectImage">Select an image or take a photo</string>
-    
+
     <string name="questionGoogleServices">are google play services installed?</string>
     <string name="noSocialApps">no social apps founded!</string>
     <string name="shareWith">share with:</string>
-    <string name="jsError">javascript injection from android catched error:</string>
-    <string name="connectionFailed">connection failed</string>
-    <string name="emptyKey">empty key response</string>
-    <string name="saveImageError">please check you\'re not locked the SD card like connecting your device to a PC</string>
-    
-    <!--DIGITS-->
-    <string name="dgts__login_digits_text">PRUEBA</string>
-    
+
+    <string name="readExternalStorageResponse">
+        You cannot share a poll without \n "READ EXTERNAL STORAGE" \n permission! \n
+        Please allow that permission.
+    </string>
+    <string name="readExternalStorageResponse2"></string>
+
+    <string name="rate_edit_message">Type here . . .</string>
+
 </resources>
